@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ajant\\source\\repos\\ASPNETReactStarterKit\\ASPNETReactStarterKit\\ASPNETReactStarterKit.csproj": {}
+    "/workspaces/ASPNETReactStarterKit/ASPNETReactStarterKit/ASPNETReactStarterKit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ajant\\source\\repos\\ASPNETReactStarterKit\\ASPNETReactStarterKit\\ASPNETReactStarterKit.csproj": {
+    "/workspaces/ASPNETReactStarterKit/ASPNETReactStarterKit/ASPNETReactStarterKit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ajant\\source\\repos\\ASPNETReactStarterKit\\ASPNETReactStarterKit\\ASPNETReactStarterKit.csproj",
+        "projectUniqueName": "/workspaces/ASPNETReactStarterKit/ASPNETReactStarterKit/ASPNETReactStarterKit.csproj",
         "projectName": "ASPNETReactStarterKit",
-        "projectPath": "C:\\Users\\ajant\\source\\repos\\ASPNETReactStarterKit\\ASPNETReactStarterKit\\ASPNETReactStarterKit.csproj",
-        "packagesPath": "C:\\Users\\ajant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ajant\\source\\repos\\ASPNETReactStarterKit\\ASPNETReactStarterKit\\obj\\",
+        "projectPath": "/workspaces/ASPNETReactStarterKit/ASPNETReactStarterKit/ASPNETReactStarterKit.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/ASPNETReactStarterKit/ASPNETReactStarterKit/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ajant\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -33,17 +32,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
